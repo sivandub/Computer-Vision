@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['SPEED LIMIT 100', 'SPEED LIMIT 120', 'SPEED LIMIT 20', 'SPEED LIMIT 30', 'SPEED LIMIT 50', 'SPEED LIMIT 70', 'SPEED-LIMIT-60', 'SPEED-LIMIT-80', 'STOP']
+
+roboflow:
+  workspace: graduation-project-bxm12
+  project: traffic-sign-recognition-f2kgw
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/graduation-project-bxm12/traffic-sign-recognition-f2kgw/dataset/3
